@@ -214,7 +214,7 @@ func (r *rewriter) _proxy_body_XFunc(node ast.Node, matched types.Object) *ast.F
 			X:   x,
 			Sel: ast.NewIdent(n.Sel.Name)}
 	default:
-		log.Fatalf("impl error: %s is unexpected type: %s", util.ASTDebugString(n))
+		log.Fatalf("impl error: %s is unexpected type", util.ASTDebugString(n))
 	}
 	var xFuncBodyCallLhs []ast.Expr
 	var xFuncBodyCallLhs2 []ast.Expr
@@ -572,7 +572,7 @@ func (r *rewriter) proxy(node ast.Node, pointcut aspect.Pointcut) ast.Expr {
 	case *ast.SelectorExpr:
 		id = n.Sel
 	default:
-		log.Fatalf("impl error: %s is unexpected type: %s", util.ASTDebugString(n))
+		log.Fatalf("impl error: %s is unexpected type", util.ASTDebugString(n))
 	}
 	// alreadyGen, ok := r.proxyExprs[id]
 	// if ok {
