@@ -1,5 +1,7 @@
 # AspectGo: AOP Framework for Go
 
+[![Join the chat at https://gitter.im/AkihiroSuda/aspectgo](https://badges.gitter.im/AkihiroSuda/aspectgo.svg)](https://gitter.im/AkihiroSuda/aspectgo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Join the chat at https://gitter.im/AkihiroSuda/aspectgo](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/AkihiroSuda/aspectgo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/AkihiroSuda/aspectgo.svg?branch=master)](https://travis-ci.org/AkihiroSuda/aspectgo)
 [![Go Report Card](https://goreportcard.com/badge/github.com/AkihiroSuda/aspectgo)](https://goreportcard.com/report/github.com/AkihiroSuda/aspectgo)
